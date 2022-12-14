@@ -1,6 +1,7 @@
 import { Label } from 'components/Common/Common.styled';
 
 export const Filter = props => {
+  
   const handleFilter = evt => {
     const searchName = evt.target.value.toLowerCase();
     props.onFiltred(searchName);
